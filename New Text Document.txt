@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowerFit Gym</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+/* Header */
+header{
+    background:#000;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#ff4500;
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#ff4500;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff4500;
+    color:white;
+    padding:12px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:18px;
+}
+
+/* Sections */
+section{
+    padding:70px 10%;
+}
+
+h2{
+    text-align:center;
+    color:#ff4500;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+/* About */
+.about p{
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Plans */
+.plans{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.plan{
+    background:#222;
+    padding:30px;
+    width:280px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.plan h3{
+    color:#ff4500;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:35px;
+    margin:15px 0;
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+/* Footer */
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">POWERFIT GYM</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#plans">Plans</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Transform Your Body</h1>
+        <p>Join the Best Fitness Community in Town</p>
+        <a href="#contact" class="btn">Join Now</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to PowerFit Gym. We provide modern equipment,
+        expert trainers, and a motivating environment to help
+        you achieve your fitness goals. Whether you want weight
+        loss, muscle gain, or overall fitness, we are here to
+        support your journey.
+    </p>
+</section>
+
+<section id="plans">
+    <h2>Membership Plans</h2>
+
+    <div class="plans">
+
+        <div class="plan">
+            <h3>Monthly</h3>
+            <div class="price">₹999</div>
+            <p>Full Gym Access</p>
+        </div>
+
+        <div class="plan">
+            <h3>Quarterly</h3>
+            <div class="price">₹2499</div>
+            <p>Best Value Plan</p>
+        </div>
+
+        <div class="plan">
+            <h3>Yearly</h3>
+            <div class="price">₹7999</div>
+            <p>Unlimited Access</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <p>📞 Phone: +91 9876543210</p>
+    <p>📍 Address: Your Gym Address Here</p>
+    <p>📧 Email: powerfitgym@gmail.com</p>
+
+    <br>
+
+    <a href="https://wa.me/919876543210" class="btn">
+        Chat on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 PowerFit Gym. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
